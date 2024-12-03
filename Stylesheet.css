@@ -10,8 +10,21 @@ body {
 }
 
 nav {
-    color:chartreuse; 
-    display:flex;
-    justify-content:space-around; 
-    align-items:center;
+    color: rgb(0, 255, 220);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(2, 25, 55);
+}
+
+nav div ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul li {
+    margin: 0 25px;
+
 }
