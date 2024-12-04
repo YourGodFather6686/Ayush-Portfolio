@@ -18,6 +18,10 @@ nav {
     background-color: rgb(2, 25, 55);
 }
 
+.left {
+    font-size: 200%;
+}
+
 nav div ul {
     display: flex;
     list-style: none;
@@ -27,4 +31,50 @@ nav div ul {
 ul li {
     margin: 0 25px;
 
+}
+
+.firstsection {
+    font-size: 155%;
+    width: 50%;
+    left: 0%;
+    padding-top: 2%;
+}
+
+.secondsection {
+    width: 40%;
+    left: 55%;
+    position: absolute;
+    top: 25%;
+    margin-left: 5%;
+}
+
+.firstsection span {
+    color: lawngreen;
+    font-size: 300%;
+}
+
+img {
+    width: 470px;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: rotate(15deg);
+}
+
+h1 {
+    font-size: 350%;
+}
+
+.tagline {
+    color: coral
+}
+
+#codeid {
+    font-size: 150%;
+    color: yellow
+}
+
+#strongid {
+    color: peru
 }
