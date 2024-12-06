@@ -22,22 +22,29 @@ nav {
     font-size: 200%;
 }
 
+
 nav div ul {
     display: flex;
     list-style: none;
-
 }
 
 ul li {
     margin: 0 25px;
-
 }
+
+ul li:hover {
+    color: lawngreen;
+    font-size: 110%;
+}
+
 
 .firstsection {
     font-size: 155%;
     width: 50%;
     left: 0%;
-    padding-top: 2%;
+    padding: 2%;
+    /* Padding is for the space we need around the text on the screen. E.x- padding-top:2; The only upeer side space will be shown */
+    margin-bottom: 5%;
 }
 
 .secondsection {
@@ -67,7 +74,7 @@ h1 {
 }
 
 .tagline {
-    color: coral
+    color: coral;
 }
 
 #codeid {
@@ -77,4 +84,82 @@ h1 {
 
 #strongid {
     color: peru
+}
+
+.thirdsection {
+    height: 105vh;
+}
+
+#h2id {
+    padding-top: 2%;
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#aboutid {
+    font-size: 150%;
+    font-style: italic;
+    color: rgb(128, 128, 128);
+    margin: 2% 3%;
+}
+
+#introid {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgba(128, 128, 128, 0.777);
+}
+
+.aboutdetails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding: 0% 75px;
+}
+
+.marks {
+    font-size: larger;
+}
+
+.type {
+    color: grey;
+}
+
+#clickid {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+
+}
+
+#buttonid {
+    display: flex;
+    padding: 1.5%;
+    background-color: aquamarine;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#buttonid a {
+    text-decoration: none;
+}
+
+#buttonid:hover {
+    background-color: coral;
+    font-size: 110%;
+}
+
+.fourthsection {
+    height: 170vh;
+}
+
+#skillid {
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
 }
