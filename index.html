@@ -2,22 +2,22 @@
 <html>
 
 <head>
-    <title> Ayush The Developer </title>
+    <title> Ayush Portfolio </title>
 
     <link rel="stylesheet" href="Stylesheet.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="head">
         <nav>
             <div class="left"> Ayush Singh Portfolio </div>
             <div class="right">
                 <ul>
-                    <li> Home </li>
-                    <li> About </li>
+                    <li><a href="#homeid">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
                     <li> Project's </li>
-                    <li> Resume </li>
+                    <li><a href="#skillsid4">Skills</a> </li>
                     <li> Contact Me </li>
                 </ul>
             </div>
@@ -25,27 +25,30 @@
     </header>
 
     <main>
-        <section class="firstsection">
-            <div> 👋 Hi, This is </div>
-            <h1> Ayush Singh </h1>
-            <p> And I Am <span id="webdevid"> Web Developer. </span> </p>
-            <p class="tagline">
-                < -> Bridging the Gap Between Imagination and Reality.
-            </p> <br> <br>
+        <section id="homeid">
+            <section class="firstsection">
+                <div> 👋 Hi, This is </div>
+                <h1> Ayush Singh </h1>
+                <p> And I Am <span id="webdevid"> Web Developer. </span> </p>
+                <p class="tagline">
+                    < -> Bridging the Gap Between Imagination and Reality.
+                </p> <br> <br>
 
-            <p> I'm Your Friendly <strong id="strongid"> Web Developer. </strong> Helping People Turn Their Ideas Into
-                Site's & Apps That Work. I speak in <span id="codeid"> CODE </span> So You Don't Have To.
-            </p>
-        </section>
+                <p> I'm Your Friendly <strong id="strongid"> Web Developer. </strong> Helping People Turn Their Ideas
+                    Into
+                    Site's & Apps That Work. I speak in <span id="codeid"> CODE </span> So You Don't Have To.
+                </p>
+            </section>
 
-        <section class="secondsection">
-            <div>
-                <img src="Image/WEBDEV.jpg">
-                <br> <br> <br> <br> <br>
-            </div>
+            <section class="secondsection">
+                <div>
+                    <img src="Image/WEBDEV.jpg">
+                    <br> <br> <br> <br> <br>
+                </div>
+            </section>
         </section>
         <!-------------------- ABOUT SECTION -------------------->
-        <section class="thirdsection">
+        <section class="thirdsection" id="about">
             <h2 id="h2id"> About Me </h2>
             <p id="introid"> My Introduction </p>
             <p id="aboutid"> A Passionate Web Developer With A Strong Background In Computer Science.
@@ -78,31 +81,60 @@
             </div>
         </section>
         <!-------------------- SKILLS SECTION -------------------->
-        <section class="fourthsection">
+        <section class="fourthsection" id="skillsid4">
             <div>
                 <h2 id="skillid"> Skills </h2>
                 <p id="introid"> My Technical Skills </p>
             </div>
             <div class="mainskill">
                 <div class="skills1">
-                    <div class="skills11">
+                    <div class="skills11 toggle-menu">
                         <h2>Programming Languages</h2>
+                        <ul class="dropdown-menu">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                        </ul>
                     </div>
-                    <div class="skills12">
+                    <div class="skills12 toggle-menu">
                         <h2>IT Constructs</h2>
+                        <ul class="dropdown-menu">
+                            <li>DBMS</li>
+                            <li>DS & Algorithms</li>
+                            <li>OOPS</li>
+                            <li>OS</li>
+                            <li>Networking</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="skills2">
-                    <div class="skills11">
+                    <div class="skills11 toggle-menu">
                         <h2>Technologies</h2>
+                        <ul class="dropdown-menu">
+                            <li>GIT</li>
+                            <li>MongoDB</li>
+                            <li>NextJS</li>
+                            <li>NordJS</li>
+                            <li>SQL</li>
+                        </ul>
                     </div>
-                    <div class="skills12">
+                    <div class="skills12 toggle-menu">
                         <h2>Certification's</h2>
+                        <ul class="dropdown-menu">
+                            <li>AWS Cloud Solutions Architect</li>
+                            <li>Google Cloud IAM and Networking for AWS Professionals</li>
+                            <li> Software Testing</li>
+                            <li>Intel OpenVINO™ Toolkit for Computer Vision Applications</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <script src="JavaScript.js"></script>
 
 </body>
 
