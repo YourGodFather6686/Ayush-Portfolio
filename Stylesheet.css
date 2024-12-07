@@ -165,7 +165,7 @@ h1 {
 }
 
 .fourthsection {
-    height: 170vh;
+    height: 135vh;
 }
 
 #skillid {
@@ -193,16 +193,19 @@ h1 {
     background-color: rgb(3, 3, 71);
     border-radius: 11px;
     position: relative;
-    color:coral;
+    color: coral;
     /* Parent Takes The Space And Child Takes The Same Amount of Space */
 }
 
-.skills1, .skills2{
+.skills1,
+.skills2 {
     width: 40%;
     text-align: center;
-    
+
 }
-.skills1 h2, .skills2 h2 {
+
+.skills1 h2,
+.skills2 h2 {
     padding: 3% 0;
 }
 
@@ -217,9 +220,41 @@ h1 {
 }
 
 .dropdown-menu li:hover {
-    background-color:grey
+    background-color: grey
 }
 
 .toggle-menu.active .dropdown-menu {
     display: block;
+}
+
+.fifthsection {
+    height: 150vh;
+}
+
+#qualifyid {
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.fifthdiv {
+    margin-bottom: 5%;
+}
+
+.edudiv {
+    margin: 0 4%;
+    padding: 5% 0;
+}
+
+.edudiv h2 {
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.edudiv p {
+    padding: 0 5%;
+    margin-bottom: 7%;
+    text-align: center;
 }
