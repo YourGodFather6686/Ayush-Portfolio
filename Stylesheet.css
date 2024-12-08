@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 body {
@@ -36,17 +37,19 @@ nav div ul {
 
 ul li {
     margin: 0 25px;
-
+    display: flex;
 }
 
 ul a {
     text-decoration: none;
     color: rgb(0, 255, 220);
+    transition: 1s ease;
 }
 
 ul li a:hover {
     color: lawngreen;
-    font-size: 110%;
+    scale: 1.4;
+    font-size: 110;
 }
 
 .firstsection {
@@ -98,8 +101,10 @@ h1 {
     color: peru
 }
 
+/* ==================== THIRD SECTION ==================== */
+
 .thirdsection {
-    height: 105vh;
+    height: 110vh;
 }
 
 #h2id {
@@ -144,7 +149,6 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 2% 0;
-
 }
 
 #buttonid {
@@ -163,6 +167,8 @@ h1 {
     background-color: coral;
     font-size: 110%;
 }
+
+/* ==================== FOURTH SECTION ==================== */
 
 .fourthsection {
     height: 135vh;
@@ -201,7 +207,6 @@ h1 {
 .skills2 {
     width: 40%;
     text-align: center;
-
 }
 
 .skills1 h2,
@@ -227,8 +232,10 @@ h1 {
     display: block;
 }
 
+/* ==================== FIFTH SECTION ==================== */
+
 .fifthsection {
-    height: 150vh;
+    height: 125vh;
 }
 
 #qualifyid {
@@ -240,12 +247,21 @@ h1 {
 }
 
 .fifthdiv {
-    margin-bottom: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#p2id {
+    margin-top: 7%;
+}
+
+#p2id span {
+    font-size: 150%;
 }
 
 .edudiv {
     margin: 0 4%;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .edudiv h2 {
@@ -257,4 +273,98 @@ h1 {
     padding: 0 5%;
     margin-bottom: 7%;
     text-align: center;
+}
+
+/* ==================== SIXTH SECTION ==================== */
+
+.sixthsection {
+    height: 140vh;
+}
+
+#proid {
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#projectid {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgba(128, 128, 128, 0.777);
+}
+
+/* ==================== SEVENTH SECTION ==================== */
+
+.seventhsection {
+    height: 140vh;
+}
+
+#conid {
+    color: crimson;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-style: italic
+}
+
+#contactid {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgba(128, 128, 128, 0.777);
+}
+
+.contactbody {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+}
+
+h3 {
+    margin-bottom: 0.5%;
+    color: aquamarine;
+}
+
+#contactleftside p {
+    color: gray;
+    margin-bottom: 25%;
+}
+
+.nameinput input[type="text"],
+input[type="email"] {
+    width: 287px;
+    height: 70px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    background-color: lavender;
+}
+
+.contactrightside h3 {
+    text-align: center;
+}
+
+.textinput textarea {
+    border-radius: 9px;
+    background-color: lavender;
+}
+
+#nameid {
+    size: 60%;
+}
+
+.footersection {
+    background-color: rgb(11, 38, 70);
+    height: 21vh;
+}
+
+.footersection p {
+    justify-content: space-around;
+    display: flex;
+}
+
+#footid {
+    padding: 4%;
 }
